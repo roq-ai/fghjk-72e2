@@ -1,0 +1,2122 @@
+[
+  {
+    "invitation": [
+      {
+        "id": "c6e8cffa-6be9-4288-af55-852728e0983b",
+        "email": "invitee1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-30T08:44:18.963Z",
+        "updated_at": "2023-08-30T04:58:02.492Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f6d621e5-5451-4406-8172-fcf6de014906",
+        "email": "invitee2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-30T07:48:37.351Z",
+        "updated_at": "2023-08-30T02:36:46.607Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dc8cc0a9-eb60-42ac-b124-02ebabff83ed",
+        "email": "invitee3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-30T12:03:00.118Z",
+        "updated_at": "2023-08-30T17:24:12.299Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fc7cad20-c77d-4860-aea2-e62d113c6c0e",
+        "email": "invitee4@example.com",
+        "status": "pending",
+        "created_at": "2023-08-30T15:31:20.627Z",
+        "updated_at": "2023-08-30T16:47:28.705Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2f91d95f-4a8a-44db-bf33-81ddc0c733e5",
+        "email": "invitee5@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-30T04:50:56.306Z",
+        "updated_at": "2023-08-30T02:19:38.790Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "excel_data": [
+      {
+        "id": "650c7d52-a003-4a6e-a567-fb070821ed2c",
+        "data": "1234",
+        "created_at": "2023-08-30T18:00:17.105Z",
+        "updated_at": "2023-08-30T02:11:20.317Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "11e68bd8-96a4-4f3a-8cc9-8bce56d6790d",
+        "data": "5678",
+        "created_at": "2023-08-30T13:21:17.996Z",
+        "updated_at": "2023-08-29T23:58:58.749Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fd607700-412d-492c-ad4d-944db06354df",
+        "data": "9012",
+        "created_at": "2023-08-30T00:02:28.290Z",
+        "updated_at": "2023-08-30T17:20:03.401Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "710337de-433e-4839-ae70-b4a31ff9ddab",
+        "data": "3456",
+        "created_at": "2023-08-29T21:50:51.770Z",
+        "updated_at": "2023-08-30T02:09:56.179Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bf550a38-9b07-4519-959e-f83ed332d25c",
+        "data": "7890",
+        "created_at": "2023-08-30T01:01:08.801Z",
+        "updated_at": "2023-08-30T09:15:11.511Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "83f29e54-2e8a-4cba-864e-e33e3a84d553",
+        "name": "Algorithm A",
+        "description": "A machine learning algorithm for image recognition",
+        "created_at": "2023-08-30T08:14:01.449Z",
+        "updated_at": "2023-08-30T12:51:55.162Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecd1b796-d211-4cb1-a075-173e2e3def41",
+        "name": "Algorithm B",
+        "description": "An optimization algorithm for resource allocation",
+        "created_at": "2023-08-30T10:11:39.567Z",
+        "updated_at": "2023-08-30T05:48:40.238Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "222db528-a5f8-45d6-9ee2-4a40efe91361",
+        "name": "Algorithm C",
+        "description": "A clustering algorithm for data analysis",
+        "created_at": "2023-08-29T23:28:24.246Z",
+        "updated_at": "2023-08-29T21:09:55.379Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a226a1f-65f4-43d9-89c4-cd8c1da20b57",
+        "name": "Algorithm D",
+        "description": "A genetic algorithm for solving complex problems",
+        "created_at": "2023-08-30T04:00:02.860Z",
+        "updated_at": "2023-08-30T04:06:05.768Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aab378f3-5221-4378-9267-61c6624bf6a9",
+        "name": "Algorithm E",
+        "description": "A recommendation algorithm for personalized content",
+        "created_at": "2023-08-30T06:10:16.837Z",
+        "updated_at": "2023-08-30T00:56:47.396Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "10c85c48-ec11-4401-aeb6-2dff09c2e40a",
+        "result_data": "Success",
+        "created_at": "2023-08-30T13:45:34.702Z",
+        "updated_at": "2023-08-30T12:28:18.655Z",
+        "algorithm_id": "1a226a1f-65f4-43d9-89c4-cd8c1da20b57",
+        "excel_data_id": "11e68bd8-96a4-4f3a-8cc9-8bce56d6790d"
+      },
+      {
+        "id": "d50148c7-68e2-4a3f-aeff-5aa066c9b659",
+        "result_data": "Failure",
+        "created_at": "2023-08-30T00:03:29.413Z",
+        "updated_at": "2023-08-30T07:46:44.285Z",
+        "algorithm_id": "1a226a1f-65f4-43d9-89c4-cd8c1da20b57",
+        "excel_data_id": "fd607700-412d-492c-ad4d-944db06354df"
+      },
+      {
+        "id": "f6ccf58f-f3d1-4a6f-8b48-2e5582aa1232",
+        "result_data": "Partial",
+        "created_at": "2023-08-30T01:50:36.528Z",
+        "updated_at": "2023-08-30T03:05:51.722Z",
+        "algorithm_id": "83f29e54-2e8a-4cba-864e-e33e3a84d553",
+        "excel_data_id": "bf550a38-9b07-4519-959e-f83ed332d25c"
+      },
+      {
+        "id": "e489c76b-2cb9-4d0a-a3ff-a681f9798dcd",
+        "result_data": "Error",
+        "created_at": "2023-08-30T01:58:52.296Z",
+        "updated_at": "2023-08-30T16:07:12.365Z",
+        "algorithm_id": "aab378f3-5221-4378-9267-61c6624bf6a9",
+        "excel_data_id": "11e68bd8-96a4-4f3a-8cc9-8bce56d6790d"
+      },
+      {
+        "id": "e21193f3-9b16-4432-a052-dbf5a4743b2b",
+        "result_data": "Completed",
+        "created_at": "2023-08-29T20:55:29.777Z",
+        "updated_at": "2023-08-30T08:55:46.234Z",
+        "algorithm_id": "83f29e54-2e8a-4cba-864e-e33e3a84d553",
+        "excel_data_id": "fd607700-412d-492c-ad4d-944db06354df"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "225a86ab-c173-49c0-8806-bf53775394a4",
+        "email": "Velda67@yahoo.com",
+        "firstName": "Clifford",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62266899",
+        "tenantId": null
+      },
+      {
+        "reference": "dde64543-9135-4ea1-a15a-bb44020f1c34",
+        "email": "Cornelius91@yahoo.com",
+        "firstName": "Nelle",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/751.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bfdc451c-a666-4b8d-9f1c-54a2bdd79293",
+        "email": "Earline55@gmail.com",
+        "firstName": "Elta",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29042047",
+        "tenantId": null
+      },
+      {
+        "reference": "c357a1b9-a215-4faf-9651-7be0469b552b",
+        "email": "Shayne.Hagenes@yahoo.com",
+        "firstName": "Dora",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/116.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e7a6f157-371c-4c1d-92f6-045063192507",
+        "email": "Eugene_Streich19@yahoo.com",
+        "firstName": "Nelle",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95606827",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "b30afa93-f541-45ed-979a-48ecac1c0363",
+        "email": "invitee1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-30T00:24:28.026Z",
+        "updated_at": "2023-08-30T16:32:23.851Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e45938b1-feb7-4392-9680-db8911f89a54",
+        "email": "invitee2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-30T03:28:48.811Z",
+        "updated_at": "2023-08-30T08:05:42.652Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2e097a58-cc96-4ee3-878f-af4ec30f229b",
+        "email": "invitee3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-30T06:38:38.131Z",
+        "updated_at": "2023-08-30T17:43:49.848Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4da1f62a-99a0-4104-9a01-00f60fcd33db",
+        "email": "invitee4@example.com",
+        "status": "sent",
+        "created_at": "2023-08-30T09:44:54.498Z",
+        "updated_at": "2023-08-30T05:12:05.161Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "262a171a-dfa3-45f8-9b2d-1a25ca993aea",
+        "email": "invitee5@example.com",
+        "status": "expired",
+        "created_at": "2023-08-30T02:40:39.208Z",
+        "updated_at": "2023-08-30T05:07:57.008Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "excel_data": [
+      {
+        "id": "136bdeed-580f-4dd6-a502-b7abafd869b2",
+        "data": "1",
+        "created_at": "2023-08-30T00:28:19.017Z",
+        "updated_at": "2023-08-29T20:29:30.322Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "087ce1ef-d381-48e5-95a5-7eb964025d1d",
+        "data": "2",
+        "created_at": "2023-08-30T06:03:49.964Z",
+        "updated_at": "2023-08-30T02:44:12.061Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5c34fdcf-5082-4348-8e39-9f8b1b185ec9",
+        "data": "3",
+        "created_at": "2023-08-30T10:17:58.786Z",
+        "updated_at": "2023-08-30T05:46:19.894Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "40af5052-29c3-458d-8ee5-3eaa779c56a4",
+        "data": "4",
+        "created_at": "2023-08-30T02:04:08.597Z",
+        "updated_at": "2023-08-30T05:32:21.306Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0d88dcec-0358-4739-9093-78db7f1fda6a",
+        "data": "5",
+        "created_at": "2023-08-30T00:30:28.461Z",
+        "updated_at": "2023-08-30T05:18:12.793Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "6ecb665f-28b0-4dbf-ade5-29201bb3d1c4",
+        "name": "Algorithm A",
+        "description": "A powerful machine learning algorithm",
+        "created_at": "2023-08-30T06:50:18.570Z",
+        "updated_at": "2023-08-30T09:17:13.934Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b91c169-4a70-4511-86f4-3a42b4d83024",
+        "name": "Algorithm B",
+        "description": "An efficient sorting algorithm",
+        "created_at": "2023-08-30T11:49:30.090Z",
+        "updated_at": "2023-08-30T17:04:30.422Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37667af4-9992-4051-8b6e-0a0a7353fd4f",
+        "name": "Algorithm C",
+        "description": "A robust encryption algorithm",
+        "created_at": "2023-08-30T15:43:17.827Z",
+        "updated_at": "2023-08-30T14:55:00.802Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46f408d4-db3d-4d54-b821-e596bbc1a035",
+        "name": "Algorithm D",
+        "description": "A sophisticated recommendation algorithm",
+        "created_at": "2023-08-30T04:21:51.777Z",
+        "updated_at": "2023-08-30T04:37:57.546Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "560d47ea-e11f-4407-807e-35b75dd2effa",
+        "name": "Algorithm E",
+        "description": "An accurate forecasting algorithm",
+        "created_at": "2023-08-29T22:38:44.784Z",
+        "updated_at": "2023-08-29T22:10:50.181Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "5f262893-8f31-45a6-a960-0943b5a81417",
+        "result_data": "Result 1",
+        "created_at": "2023-08-29T20:43:53.801Z",
+        "updated_at": "2023-08-30T05:13:13.574Z",
+        "algorithm_id": "6ecb665f-28b0-4dbf-ade5-29201bb3d1c4",
+        "excel_data_id": "087ce1ef-d381-48e5-95a5-7eb964025d1d"
+      },
+      {
+        "id": "3e85101d-9440-49e7-ac6f-eb671f898460",
+        "result_data": "Result 2",
+        "created_at": "2023-08-29T20:47:39.298Z",
+        "updated_at": "2023-08-30T13:35:10.333Z",
+        "algorithm_id": "37667af4-9992-4051-8b6e-0a0a7353fd4f",
+        "excel_data_id": "0d88dcec-0358-4739-9093-78db7f1fda6a"
+      },
+      {
+        "id": "0a89c2e3-9735-4df6-b5bd-f8fe81b79af6",
+        "result_data": "Result 3",
+        "created_at": "2023-08-30T03:20:26.741Z",
+        "updated_at": "2023-08-29T22:49:04.317Z",
+        "algorithm_id": "1b91c169-4a70-4511-86f4-3a42b4d83024",
+        "excel_data_id": "0d88dcec-0358-4739-9093-78db7f1fda6a"
+      },
+      {
+        "id": "df60770f-8581-4664-b1db-396b0d9e6275",
+        "result_data": "Result 4",
+        "created_at": "2023-08-30T19:07:41.763Z",
+        "updated_at": "2023-08-30T14:23:13.938Z",
+        "algorithm_id": "560d47ea-e11f-4407-807e-35b75dd2effa",
+        "excel_data_id": "40af5052-29c3-458d-8ee5-3eaa779c56a4"
+      },
+      {
+        "id": "b8366830-9c93-4b16-aeef-42dac6a453b5",
+        "result_data": "Result 5",
+        "created_at": "2023-08-30T17:26:30.792Z",
+        "updated_at": "2023-08-30T17:05:10.065Z",
+        "algorithm_id": "37667af4-9992-4051-8b6e-0a0a7353fd4f",
+        "excel_data_id": "5c34fdcf-5082-4348-8e39-9f8b1b185ec9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b6c84164-79f6-4808-b504-b6e80da900d4",
+        "email": "Vicente.Littel93@yahoo.com",
+        "firstName": "Jaclyn",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/801.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6116ba09-cbf7-4ddf-b7c9-87113a8ed89c",
+        "email": "Stanley.Kuhn@gmail.com",
+        "firstName": "Aubrey",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/553.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec539ace-1e10-4b76-94af-e9702dabbcdf",
+        "email": "Meaghan.Swaniawski76@yahoo.com",
+        "firstName": "Robyn",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62848721",
+        "tenantId": null
+      },
+      {
+        "reference": "407405f1-be18-4b44-bc7d-4a3353a479d2",
+        "email": "Nadia_Crist29@hotmail.com",
+        "firstName": "Laurel",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75925599",
+        "tenantId": null
+      },
+      {
+        "reference": "5ee4bd72-54d8-4297-9a7c-fa66c1f01109",
+        "email": "Augustus18@hotmail.com",
+        "firstName": "Eleanore",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/712.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "cb24379b-31a0-4c07-81fd-d0aa64209926",
+        "email": "invitee1@example.com",
+        "status": "Pending",
+        "created_at": "2023-08-30T02:39:07.167Z",
+        "updated_at": "2023-08-30T14:01:22.861Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fe1c9e19-aac7-459d-908c-8424eac47339",
+        "email": "invitee2@example.com",
+        "status": "Accepted",
+        "created_at": "2023-08-30T08:02:02.058Z",
+        "updated_at": "2023-08-30T03:45:38.657Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "39be4d7e-c275-4562-af5f-0cb77a66c970",
+        "email": "invitee3@example.com",
+        "status": "Declined",
+        "created_at": "2023-08-30T15:52:26.941Z",
+        "updated_at": "2023-08-30T07:02:25.890Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "17bdbd7e-b349-4a49-8a07-3a3f332ab546",
+        "email": "invitee4@example.com",
+        "status": "Expired",
+        "created_at": "2023-08-30T01:45:38.026Z",
+        "updated_at": "2023-08-30T13:59:17.227Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e7270774-2e7c-4755-9a44-42fec235b456",
+        "email": "invitee5@example.com",
+        "status": "Cancelled",
+        "created_at": "2023-08-30T07:59:35.819Z",
+        "updated_at": "2023-08-29T22:22:55.837Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "excel_data": [
+      {
+        "id": "7e68950c-40d0-45ef-81cf-75bedb5b55f4",
+        "data": "12345",
+        "created_at": "2023-08-30T14:45:05.205Z",
+        "updated_at": "2023-08-30T04:09:20.718Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "385868d7-cc58-4a36-9469-a78083c6c1fe",
+        "data": "67890",
+        "created_at": "2023-08-29T20:18:18.995Z",
+        "updated_at": "2023-08-30T07:52:47.365Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "225c21ce-568c-430b-b32e-54f73e84d274",
+        "data": "ABCDE",
+        "created_at": "2023-08-30T00:14:34.711Z",
+        "updated_at": "2023-08-30T11:18:35.028Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bf023422-3139-4cc5-b8a6-31731d26ed14",
+        "data": "FGHIJ",
+        "created_at": "2023-08-30T06:23:10.514Z",
+        "updated_at": "2023-08-30T05:58:04.693Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "13d5c3be-bec4-4d99-9399-6c791b8f9fde",
+        "data": "KLMNO",
+        "created_at": "2023-08-30T12:53:43.977Z",
+        "updated_at": "2023-08-30T17:08:58.854Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "fa9101a4-cc62-4601-8db1-315123e7521c",
+        "name": "Sorting Algorithm",
+        "description": "An algorithm for sorting data efficiently",
+        "created_at": "2023-08-30T13:02:38.406Z",
+        "updated_at": "2023-08-30T13:40:31.693Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0cc1846-9870-43c9-a71e-0665c2c9492e",
+        "name": "Machine Learning Algorithm",
+        "description": "An algorithm for training machine learning models",
+        "created_at": "2023-08-30T12:53:10.048Z",
+        "updated_at": "2023-08-30T13:27:36.511Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3343dbbf-0b2e-49d9-9693-1e46deb373a6",
+        "name": "Encryption Algorithm",
+        "description": "An algorithm for encrypting sensitive information",
+        "created_at": "2023-08-30T08:04:17.514Z",
+        "updated_at": "2023-08-29T23:47:16.749Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9033a6d-39bf-442d-bdda-5e2f6938a802",
+        "name": "Graph Algorithm",
+        "description": "An algorithm for solving graph-related problems",
+        "created_at": "2023-08-30T17:34:50.829Z",
+        "updated_at": "2023-08-29T23:59:21.777Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39fff174-dc84-4fae-8e8b-eeae0c8082d7",
+        "name": "Search Algorithm",
+        "description": "An algorithm for searching for specific data",
+        "created_at": "2023-08-30T10:02:07.325Z",
+        "updated_at": "2023-08-30T12:35:58.909Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "580b6cc9-5dfa-43cf-b7d4-2871e95398cc",
+        "result_data": "Success",
+        "created_at": "2023-08-30T05:28:48.540Z",
+        "updated_at": "2023-08-30T16:02:28.277Z",
+        "algorithm_id": "c9033a6d-39bf-442d-bdda-5e2f6938a802",
+        "excel_data_id": "7e68950c-40d0-45ef-81cf-75bedb5b55f4"
+      },
+      {
+        "id": "b5dedc0d-c71c-4f6e-8729-1edc2fb6463b",
+        "result_data": "Failure",
+        "created_at": "2023-08-30T03:25:25.707Z",
+        "updated_at": "2023-08-30T08:53:19.723Z",
+        "algorithm_id": "c9033a6d-39bf-442d-bdda-5e2f6938a802",
+        "excel_data_id": "7e68950c-40d0-45ef-81cf-75bedb5b55f4"
+      },
+      {
+        "id": "3791b1ff-0d76-4e38-9521-7a6535154b9d",
+        "result_data": "Incomplete",
+        "created_at": "2023-08-30T14:33:13.312Z",
+        "updated_at": "2023-08-30T16:07:18.804Z",
+        "algorithm_id": "c9033a6d-39bf-442d-bdda-5e2f6938a802",
+        "excel_data_id": "385868d7-cc58-4a36-9469-a78083c6c1fe"
+      },
+      {
+        "id": "2a663354-85cc-4a66-9844-955d69bc2fc1",
+        "result_data": "Error",
+        "created_at": "2023-08-29T22:24:53.638Z",
+        "updated_at": "2023-08-30T09:46:45.238Z",
+        "algorithm_id": "fa9101a4-cc62-4601-8db1-315123e7521c",
+        "excel_data_id": "225c21ce-568c-430b-b32e-54f73e84d274"
+      },
+      {
+        "id": "58fc5d0e-92e9-4c5b-bf38-38a28e111e74",
+        "result_data": "Pending",
+        "created_at": "2023-08-30T06:52:53.386Z",
+        "updated_at": "2023-08-30T09:18:42.370Z",
+        "algorithm_id": "3343dbbf-0b2e-49d9-9693-1e46deb373a6",
+        "excel_data_id": "385868d7-cc58-4a36-9469-a78083c6c1fe"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "eebc7d75-416e-48cb-8f5a-da05081a651e",
+        "email": "Rachelle.Cassin24@hotmail.com",
+        "firstName": "Victoria",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21557309",
+        "tenantId": null
+      },
+      {
+        "reference": "38d3db51-665c-492c-b226-7739cd1c333e",
+        "email": "Yolanda_Stanton@gmail.com",
+        "firstName": "Perry",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44151730",
+        "tenantId": null
+      },
+      {
+        "reference": "3cbce839-9e25-4fdb-8f24-9f039a71c98d",
+        "email": "Ronaldo_Stracke92@hotmail.com",
+        "firstName": "Jalen",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33318365",
+        "tenantId": null
+      },
+      {
+        "reference": "8a6cfe65-411d-4f9f-a272-3397cac63a37",
+        "email": "Nya43@hotmail.com",
+        "firstName": "Mary",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41516472",
+        "tenantId": null
+      },
+      {
+        "reference": "eb2fe738-6fe1-44b1-86ee-cdf38210c208",
+        "email": "Tessie_Collins7@hotmail.com",
+        "firstName": "Devyn",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27676081",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "9507d8da-1cc2-40b3-a838-a4d1c9c0fdc9",
+        "email": "invite1@example.com",
+        "status": "Pending",
+        "created_at": "2023-08-30T01:44:29.211Z",
+        "updated_at": "2023-08-30T03:04:14.891Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "49138c2f-8220-4aa4-a747-af11e55cd6cb",
+        "email": "invite2@example.com",
+        "status": "Accepted",
+        "created_at": "2023-08-30T18:36:04.919Z",
+        "updated_at": "2023-08-30T07:11:32.793Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "de313fa3-37ed-4eb7-8abe-6ed6b5835dca",
+        "email": "invite3@example.com",
+        "status": "Declined",
+        "created_at": "2023-08-30T13:45:16.654Z",
+        "updated_at": "2023-08-30T17:03:54.466Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f17badfa-435b-4867-aa28-927ebecd20e6",
+        "email": "invite4@example.com",
+        "status": "Expired",
+        "created_at": "2023-08-30T08:05:07.387Z",
+        "updated_at": "2023-08-30T01:05:51.811Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d237e472-ea57-4a41-9b73-e1e22118829c",
+        "email": "invite5@example.com",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T23:03:19.163Z",
+        "updated_at": "2023-08-30T04:58:26.371Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "excel_data": [
+      {
+        "id": "fb64450f-cc9b-4a76-88aa-a1b6c9477a82",
+        "data": "12345",
+        "created_at": "2023-08-29T21:40:07.149Z",
+        "updated_at": "2023-08-30T02:39:51.961Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1812954e-faf0-4f2d-aa5d-f2b3ce73535b",
+        "data": "67890",
+        "created_at": "2023-08-30T04:07:36.264Z",
+        "updated_at": "2023-08-30T15:31:57.439Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "86252e68-3fab-4a87-82aa-e7db1e08dd2e",
+        "data": "ABCDE",
+        "created_at": "2023-08-30T03:31:30.301Z",
+        "updated_at": "2023-08-30T04:01:59.698Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "acc246b3-e393-46b3-83df-2284bc471fe6",
+        "data": "FGHIJ",
+        "created_at": "2023-08-30T04:29:35.759Z",
+        "updated_at": "2023-08-30T03:49:52.458Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "41f7c5f0-7732-42be-96a1-efabb9dfa234",
+        "data": "KLMNO",
+        "created_at": "2023-08-29T20:11:43.606Z",
+        "updated_at": "2023-08-30T01:50:17.693Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "8f342eeb-f071-4da5-b9fd-6d8557ab522f",
+        "name": "Sorting Algorithm",
+        "description": "An algorithm that sorts a list of numbers in ascending order",
+        "created_at": "2023-08-30T13:41:22.032Z",
+        "updated_at": "2023-08-29T21:20:35.827Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb3d215c-7580-4ad5-9908-688d0b479d0a",
+        "name": "Machine Learning Algorithm",
+        "description": "An algorithm that predicts user behavior based on historical data",
+        "created_at": "2023-08-30T08:24:11.176Z",
+        "updated_at": "2023-08-30T04:56:52.366Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68fdc31e-68ef-46cc-aafb-53714391931d",
+        "name": "Graph Algorithm",
+        "description": "An algorithm that finds the shortest path between two nodes in a graph",
+        "created_at": "2023-08-30T00:23:12.064Z",
+        "updated_at": "2023-08-29T21:02:30.810Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de2f39d2-32fb-4c1a-98cf-6de778dea934",
+        "name": "Optimization Algorithm",
+        "description": "An algorithm that optimizes resource allocation for maximum efficiency",
+        "created_at": "2023-08-30T11:40:54.125Z",
+        "updated_at": "2023-08-30T10:01:03.982Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "069d3c50-a252-486a-a0bd-851f0ee9cffb",
+        "name": "Search Algorithm",
+        "description": "An algorithm that searches for a specific element in a list",
+        "created_at": "2023-08-29T20:05:47.346Z",
+        "updated_at": "2023-08-30T09:40:06.687Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "0b1b3376-6f13-445a-ab39-9561db9c8ccd",
+        "result_data": "Success",
+        "created_at": "2023-08-30T00:23:32.994Z",
+        "updated_at": "2023-08-29T23:59:36.897Z",
+        "algorithm_id": "069d3c50-a252-486a-a0bd-851f0ee9cffb",
+        "excel_data_id": "1812954e-faf0-4f2d-aa5d-f2b3ce73535b"
+      },
+      {
+        "id": "281a08bd-b59d-4aa4-b370-31431d5c7b51",
+        "result_data": "Failure",
+        "created_at": "2023-08-30T09:32:09.406Z",
+        "updated_at": "2023-08-30T06:20:33.116Z",
+        "algorithm_id": "de2f39d2-32fb-4c1a-98cf-6de778dea934",
+        "excel_data_id": "1812954e-faf0-4f2d-aa5d-f2b3ce73535b"
+      },
+      {
+        "id": "a17f2a58-b802-442a-874e-4e4bf05b1bde",
+        "result_data": "Incomplete",
+        "created_at": "2023-08-30T15:44:20.979Z",
+        "updated_at": "2023-08-30T06:29:23.012Z",
+        "algorithm_id": "069d3c50-a252-486a-a0bd-851f0ee9cffb",
+        "excel_data_id": "fb64450f-cc9b-4a76-88aa-a1b6c9477a82"
+      },
+      {
+        "id": "83b8ec27-4382-4002-a526-83510d9ad839",
+        "result_data": "Error",
+        "created_at": "2023-08-30T15:08:45.378Z",
+        "updated_at": "2023-08-29T20:40:34.153Z",
+        "algorithm_id": "de2f39d2-32fb-4c1a-98cf-6de778dea934",
+        "excel_data_id": "41f7c5f0-7732-42be-96a1-efabb9dfa234"
+      },
+      {
+        "id": "7ae081e5-f894-4049-9f70-b9c32c1c1094",
+        "result_data": "Pending",
+        "created_at": "2023-08-30T14:39:42.516Z",
+        "updated_at": "2023-08-30T15:37:16.513Z",
+        "algorithm_id": "8f342eeb-f071-4da5-b9fd-6d8557ab522f",
+        "excel_data_id": "fb64450f-cc9b-4a76-88aa-a1b6c9477a82"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "93e85c7e-2c40-4aa6-904e-035bd0668227",
+        "email": "Narciso70@yahoo.com",
+        "firstName": "Laurel",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17102322",
+        "tenantId": null
+      },
+      {
+        "reference": "44aa59c5-567b-4564-9839-5353eacfcc1f",
+        "email": "Kenyatta.Bashirian44@hotmail.com",
+        "firstName": "Elias",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70837867",
+        "tenantId": null
+      },
+      {
+        "reference": "438929c3-6f6b-48d6-a105-f9e20306d491",
+        "email": "Sydni63@yahoo.com",
+        "firstName": "Lauryn",
+        "lastName": "Jaskolski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2568567",
+        "tenantId": null
+      },
+      {
+        "reference": "fde860e7-fb3d-421d-a455-6992fb53f0eb",
+        "email": "Elva87@yahoo.com",
+        "firstName": "Dolores",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1100.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ba95ff2a-8782-4a4f-85b3-893b35c9a981",
+        "email": "Adonis_Green-Johnston72@hotmail.com",
+        "firstName": "Oswaldo",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27623502",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "0f03e11d-59be-448d-b3fc-56e6eb9c9283",
+        "email": "invitation1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-30T13:05:18.985Z",
+        "updated_at": "2023-08-30T18:20:28.690Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "49aabfea-c988-4027-ac1a-0714e672a19f",
+        "email": "invitation2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-30T09:52:20.083Z",
+        "updated_at": "2023-08-29T22:39:18.754Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fb7a9235-89ac-4876-9469-f4c0246d9f62",
+        "email": "invitation3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-29T21:53:17.055Z",
+        "updated_at": "2023-08-30T03:44:45.958Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "73c99138-8232-443e-b001-aeb9fdf4b1b6",
+        "email": "invitation4@example.com",
+        "status": "sent",
+        "created_at": "2023-08-30T08:03:38.212Z",
+        "updated_at": "2023-08-30T06:52:40.281Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "26a6f403-e9f4-4c03-979a-ae8a9eadc4e9",
+        "email": "invitation5@example.com",
+        "status": "expired",
+        "created_at": "2023-08-30T03:29:13.762Z",
+        "updated_at": "2023-08-30T02:53:43.457Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "excel_data": [
+      {
+        "id": "9d5256e7-29c4-454b-ae16-2c6ff5e9a050",
+        "data": "12.5",
+        "created_at": "2023-08-30T18:33:21.781Z",
+        "updated_at": "2023-08-30T07:51:42.906Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "40d338bf-6f8c-4905-af49-f4efea883d26",
+        "data": "8.9",
+        "created_at": "2023-08-30T11:37:26.367Z",
+        "updated_at": "2023-08-30T11:16:31.183Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d540f967-9e99-4513-8666-ccc1acfda37a",
+        "data": "15.2",
+        "created_at": "2023-08-30T09:53:29.172Z",
+        "updated_at": "2023-08-30T07:13:38.238Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "61bc4491-f61b-4b81-bac6-53a2420eae6e",
+        "data": "10.7",
+        "created_at": "2023-08-30T17:47:30.497Z",
+        "updated_at": "2023-08-30T07:30:02.966Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "56e34142-6c3f-4dca-841f-89c24c368f13",
+        "data": "6.3",
+        "created_at": "2023-08-30T08:50:58.418Z",
+        "updated_at": "2023-08-30T17:11:24.611Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "9a2a9738-89fa-4fc8-ac4a-d2e82ba4d20b",
+        "name": "Sorting Algorithm",
+        "description": "An algorithm for sorting data in ascending order",
+        "created_at": "2023-08-30T08:07:26.568Z",
+        "updated_at": "2023-08-30T09:57:31.331Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56a7d748-2938-445c-8a48-374bcc7fb2b9",
+        "name": "Machine Learning Algorithm",
+        "description": "An algorithm for predicting patterns in data",
+        "created_at": "2023-08-30T10:09:49.839Z",
+        "updated_at": "2023-08-30T10:08:33.609Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8189095-58c1-4ba0-89bd-efd7d6a69cfd",
+        "name": "Graph Algorithm",
+        "description": "An algorithm for solving graph-related problems",
+        "created_at": "2023-08-30T17:16:14.686Z",
+        "updated_at": "2023-08-30T05:08:45.295Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8691473-2fa1-427b-b538-dbd46e734e67",
+        "name": "Optimization Algorithm",
+        "description": "An algorithm for optimizing resource allocation",
+        "created_at": "2023-08-30T04:50:19.756Z",
+        "updated_at": "2023-08-30T11:26:11.343Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8b9801a-1fd8-4baf-900d-18f8292677e3",
+        "name": "Search Algorithm",
+        "description": "An algorithm for searching for specific elements in data",
+        "created_at": "2023-08-30T13:59:55.986Z",
+        "updated_at": "2023-08-30T02:19:08.965Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "067cdf78-6c7f-4d41-bfe6-fc4806b28d0e",
+        "result_data": "Success",
+        "created_at": "2023-08-30T11:40:17.390Z",
+        "updated_at": "2023-08-30T04:23:31.036Z",
+        "algorithm_id": "9a2a9738-89fa-4fc8-ac4a-d2e82ba4d20b",
+        "excel_data_id": "9d5256e7-29c4-454b-ae16-2c6ff5e9a050"
+      },
+      {
+        "id": "14d8640b-6713-48f9-ade4-c2609c1fbffa",
+        "result_data": "Failure",
+        "created_at": "2023-08-30T18:45:12.504Z",
+        "updated_at": "2023-08-30T19:14:28.814Z",
+        "algorithm_id": "9a2a9738-89fa-4fc8-ac4a-d2e82ba4d20b",
+        "excel_data_id": "9d5256e7-29c4-454b-ae16-2c6ff5e9a050"
+      },
+      {
+        "id": "7eef9ce3-c8b5-41b3-900e-296f4cbd384a",
+        "result_data": "Incomplete",
+        "created_at": "2023-08-30T13:06:55.090Z",
+        "updated_at": "2023-08-30T14:24:49.369Z",
+        "algorithm_id": "f8691473-2fa1-427b-b538-dbd46e734e67",
+        "excel_data_id": "61bc4491-f61b-4b81-bac6-53a2420eae6e"
+      },
+      {
+        "id": "07876919-5b35-4153-b339-6d940ff2cac2",
+        "result_data": "Error",
+        "created_at": "2023-08-30T17:09:47.510Z",
+        "updated_at": "2023-08-30T12:22:05.643Z",
+        "algorithm_id": "56a7d748-2938-445c-8a48-374bcc7fb2b9",
+        "excel_data_id": "40d338bf-6f8c-4905-af49-f4efea883d26"
+      },
+      {
+        "id": "4fa6a22c-0a7c-4159-9234-bfec0203113b",
+        "result_data": "Pending",
+        "created_at": "2023-08-30T01:54:33.937Z",
+        "updated_at": "2023-08-29T20:54:37.670Z",
+        "algorithm_id": "f8691473-2fa1-427b-b538-dbd46e734e67",
+        "excel_data_id": "56e34142-6c3f-4dca-841f-89c24c368f13"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "59ee3271-2328-45cc-92e9-6224ab09e0c6",
+        "email": "Sage.King@yahoo.com",
+        "firstName": "Lisandro",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/382.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7e57bdce-9ce8-434f-bc17-bd1e50e69a14",
+        "email": "Crystel_Mitchell7@hotmail.com",
+        "firstName": "Franco",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/179.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "028bf9ad-f82c-46bc-b575-abd42821e023",
+        "email": "Enola10@gmail.com",
+        "firstName": "Ike",
+        "lastName": "Mertz-Wintheiser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78081866",
+        "tenantId": null
+      },
+      {
+        "reference": "876f8ba1-aa72-4481-a816-85a454d69ea8",
+        "email": "Mathias.Stroman@yahoo.com",
+        "firstName": "River",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/20.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d54c4191-5664-490e-8083-7716d0039135",
+        "email": "Torrance.DAmore@gmail.com",
+        "firstName": "Dillon",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73052302",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "81abf0c4-fe6c-4882-a5c1-f366c20be9f9",
+        "email": "invitation1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-30T03:49:57.620Z",
+        "updated_at": "2023-08-30T18:40:38.519Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "37c0aeca-cbe1-4fdc-944b-6257ef369da1",
+        "email": "invitation2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-30T15:00:05.573Z",
+        "updated_at": "2023-08-30T08:59:11.931Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e28127b7-5ced-4989-988c-22e7d6851a49",
+        "email": "invitation3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-30T12:07:23.191Z",
+        "updated_at": "2023-08-30T01:43:29.371Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "85cb4798-2163-4a88-af7a-cf960bef4a32",
+        "email": "invitation4@example.com",
+        "status": "sent",
+        "created_at": "2023-08-30T12:07:17.044Z",
+        "updated_at": "2023-08-29T19:50:14.998Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a6f973c2-a7fa-4dce-883a-31edaaa4d874",
+        "email": "invitation5@example.com",
+        "status": "expired",
+        "created_at": "2023-08-29T22:23:26.207Z",
+        "updated_at": "2023-08-30T10:35:07.340Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "excel_data": [
+      {
+        "id": "8d972a67-3388-4cb3-adae-9f8a38b42aec",
+        "data": "12345",
+        "created_at": "2023-08-30T03:07:52.746Z",
+        "updated_at": "2023-08-29T20:40:29.109Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6a69c1fa-81cf-41de-81e6-2a3977492fbb",
+        "data": "67890",
+        "created_at": "2023-08-30T02:14:44.893Z",
+        "updated_at": "2023-08-30T14:39:51.997Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8ab3ab3a-e547-49fd-864f-421c82b086b1",
+        "data": "ABCDE",
+        "created_at": "2023-08-30T00:32:42.073Z",
+        "updated_at": "2023-08-29T21:20:30.493Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bbf6d1fa-fd4a-442d-bda8-2c20e9413e7c",
+        "data": "FGHIJ",
+        "created_at": "2023-08-30T02:45:00.854Z",
+        "updated_at": "2023-08-30T13:42:08.954Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "50555575-f11b-4200-9df5-4776f620dfa8",
+        "data": "KLMNO",
+        "created_at": "2023-08-29T20:29:45.148Z",
+        "updated_at": "2023-08-29T23:24:10.024Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "6e0d45be-61af-48a2-88c4-6909f89268f1",
+        "name": "Algorithm1",
+        "description": "An algorithm for image recognition",
+        "created_at": "2023-08-30T00:16:34.240Z",
+        "updated_at": "2023-08-30T19:18:17.996Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d306a42-a197-44f2-9c0a-e27f99318053",
+        "name": "Algorithm2",
+        "description": "An algorithm for data analysis",
+        "created_at": "2023-08-30T03:50:11.316Z",
+        "updated_at": "2023-08-30T05:24:31.617Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95f0ad20-926b-41e0-a682-2e06496af77d",
+        "name": "Algorithm3",
+        "description": "An algorithm for optimization",
+        "created_at": "2023-08-30T17:14:11.002Z",
+        "updated_at": "2023-08-29T21:30:15.059Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b69d8594-15b6-4810-b9ef-68c48d71c746",
+        "name": "Algorithm4",
+        "description": "An algorithm for machine learning",
+        "created_at": "2023-08-30T10:58:41.232Z",
+        "updated_at": "2023-08-30T16:07:44.659Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e2044ca-2a38-4ccc-b7da-9555f1e8cb58",
+        "name": "Algorithm5",
+        "description": "An algorithm for pattern recognition",
+        "created_at": "2023-08-30T07:10:15.750Z",
+        "updated_at": "2023-08-30T12:49:53.450Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "81055c43-1e2a-461a-9230-5bf4d896c558",
+        "result_data": "Success",
+        "created_at": "2023-08-29T20:44:17.029Z",
+        "updated_at": "2023-08-29T20:16:14.872Z",
+        "algorithm_id": "95f0ad20-926b-41e0-a682-2e06496af77d",
+        "excel_data_id": "8d972a67-3388-4cb3-adae-9f8a38b42aec"
+      },
+      {
+        "id": "8b4a99aa-6879-4c60-85c2-1ca114922dcb",
+        "result_data": "Failure",
+        "created_at": "2023-08-30T17:20:50.276Z",
+        "updated_at": "2023-08-30T00:43:18.027Z",
+        "algorithm_id": "2d306a42-a197-44f2-9c0a-e27f99318053",
+        "excel_data_id": "8d972a67-3388-4cb3-adae-9f8a38b42aec"
+      },
+      {
+        "id": "89c3f0b6-66df-421a-8815-0acce37b4334",
+        "result_data": "Error",
+        "created_at": "2023-08-30T09:00:47.590Z",
+        "updated_at": "2023-08-30T02:16:51.444Z",
+        "algorithm_id": "b69d8594-15b6-4810-b9ef-68c48d71c746",
+        "excel_data_id": "bbf6d1fa-fd4a-442d-bda8-2c20e9413e7c"
+      },
+      {
+        "id": "9fefd845-9f39-4cb7-8ea1-e0389f5df530",
+        "result_data": "Incomplete",
+        "created_at": "2023-08-30T09:46:58.219Z",
+        "updated_at": "2023-08-30T11:54:08.278Z",
+        "algorithm_id": "b69d8594-15b6-4810-b9ef-68c48d71c746",
+        "excel_data_id": "8d972a67-3388-4cb3-adae-9f8a38b42aec"
+      },
+      {
+        "id": "0e7c6649-feb5-4d72-8dfa-15ef54adc9be",
+        "result_data": "Validated",
+        "created_at": "2023-08-30T19:39:39.955Z",
+        "updated_at": "2023-08-30T10:15:52.240Z",
+        "algorithm_id": "b69d8594-15b6-4810-b9ef-68c48d71c746",
+        "excel_data_id": "8ab3ab3a-e547-49fd-864f-421c82b086b1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d6635d70-5d66-41cf-a10f-9b70fa12d351",
+        "email": "Kaelyn_Kautzer@yahoo.com",
+        "firstName": "Yoshiko",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9177081",
+        "tenantId": null
+      },
+      {
+        "reference": "676d94a6-b58f-48d4-9c86-72ce38a27ed4",
+        "email": "Mitchell.Murray5@yahoo.com",
+        "firstName": "Emmet",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/79.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6dd72093-61a5-4fc1-a8a2-601652253e12",
+        "email": "Donnell71@gmail.com",
+        "firstName": "Eino",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/916.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c585d8d4-43dd-41a7-962e-46761a7e64ce",
+        "email": "Adeline71@yahoo.com",
+        "firstName": "Deshaun",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/159.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cfc61077-cc2a-457f-a13a-b181c0b8e058",
+        "email": "Jeramy80@gmail.com",
+        "firstName": "Belle",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1043.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "005c077e-c6cc-4db9-8176-0b05d58073e5",
+        "email": "invitation1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-30T11:22:18.544Z",
+        "updated_at": "2023-08-30T00:51:06.439Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1f2e23e7-efaa-4613-9800-2d9c5ea46760",
+        "email": "invitation2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-30T13:12:36.581Z",
+        "updated_at": "2023-08-30T09:31:41.046Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f9b62646-5388-4b59-b82d-c614de28483b",
+        "email": "invitation3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-30T10:05:44.174Z",
+        "updated_at": "2023-08-29T23:08:36.885Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7e228fdf-d832-43e7-911c-79a2eed9b6c8",
+        "email": "invitation4@example.com",
+        "status": "expired",
+        "created_at": "2023-08-30T13:41:42.020Z",
+        "updated_at": "2023-08-30T01:51:56.598Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ee657ed9-0fe3-45ff-8a60-b58aaf97f384",
+        "email": "invitation5@example.com",
+        "status": "canceled",
+        "created_at": "2023-08-30T07:41:55.539Z",
+        "updated_at": "2023-08-29T21:34:59.852Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "excel_data": [
+      {
+        "id": "4555bac3-c1af-4671-9793-d774d66bcebb",
+        "data": "10",
+        "created_at": "2023-08-30T02:31:37.591Z",
+        "updated_at": "2023-08-30T12:18:03.967Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a2440a66-b0ea-4057-b3e8-04e4ed6ddc5f",
+        "data": "20",
+        "created_at": "2023-08-30T01:06:26.961Z",
+        "updated_at": "2023-08-29T22:10:22.230Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8ccefc68-a383-4777-8e22-1ecd92807ebe",
+        "data": "30",
+        "created_at": "2023-08-29T23:16:38.136Z",
+        "updated_at": "2023-08-30T08:58:55.892Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "537ee063-e688-4ac4-828e-2e9073d8de4d",
+        "data": "40",
+        "created_at": "2023-08-30T01:58:42.372Z",
+        "updated_at": "2023-08-30T06:08:08.222Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7c59e244-8532-4aac-a01e-b1bd95129ab6",
+        "data": "50",
+        "created_at": "2023-08-29T20:01:35.252Z",
+        "updated_at": "2023-08-30T13:32:12.901Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "66e50bb0-d520-4a45-a717-1073045bcfbd",
+        "name": "Linear Regression",
+        "description": "A statistical method for predicting numerical values",
+        "created_at": "2023-08-30T18:40:45.877Z",
+        "updated_at": "2023-08-29T20:26:27.426Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3102bab-e7d0-4568-b2f1-d113aab89e71",
+        "name": "K-means Clustering",
+        "description": "A machine learning algorithm for grouping data points",
+        "created_at": "2023-08-30T06:16:57.731Z",
+        "updated_at": "2023-08-30T06:34:54.763Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f06b8f5-440a-4759-8276-fb7945fe7080",
+        "name": "Random Forest",
+        "description": "An ensemble learning method using decision trees",
+        "created_at": "2023-08-30T08:07:38.497Z",
+        "updated_at": "2023-08-30T00:14:10.280Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4420ffb-c7dd-4ade-827d-6cac8a38b010",
+        "name": "Neural Network",
+        "description": "A computational model inspired by the human brain",
+        "created_at": "2023-08-29T22:45:52.554Z",
+        "updated_at": "2023-08-30T12:55:32.568Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97419adb-c183-4f37-b418-652af57480c3",
+        "name": "Support Vector Machine",
+        "description": "A supervised learning algorithm for classification and regression",
+        "created_at": "2023-08-30T18:48:25.933Z",
+        "updated_at": "2023-08-30T15:46:34.930Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "7cbe6521-d68f-4ce0-81a1-6b5ec7f324ef",
+        "result_data": "Success",
+        "created_at": "2023-08-30T19:00:59.649Z",
+        "updated_at": "2023-08-29T23:22:16.478Z",
+        "algorithm_id": "d4420ffb-c7dd-4ade-827d-6cac8a38b010",
+        "excel_data_id": "a2440a66-b0ea-4057-b3e8-04e4ed6ddc5f"
+      },
+      {
+        "id": "22bab35f-f1ae-476f-a212-2b0911e633bf",
+        "result_data": "Failure",
+        "created_at": "2023-08-30T16:29:14.456Z",
+        "updated_at": "2023-08-30T16:39:57.662Z",
+        "algorithm_id": "f3102bab-e7d0-4568-b2f1-d113aab89e71",
+        "excel_data_id": "7c59e244-8532-4aac-a01e-b1bd95129ab6"
+      },
+      {
+        "id": "c9e6451f-398d-458c-b0fa-24a3b799eae8",
+        "result_data": "Incomplete",
+        "created_at": "2023-08-29T21:21:51.582Z",
+        "updated_at": "2023-08-29T20:46:42.129Z",
+        "algorithm_id": "f3102bab-e7d0-4568-b2f1-d113aab89e71",
+        "excel_data_id": "4555bac3-c1af-4671-9793-d774d66bcebb"
+      },
+      {
+        "id": "c94e9990-2ba1-4f70-9b6a-4fe0f18e66eb",
+        "result_data": "Error",
+        "created_at": "2023-08-29T22:15:30.465Z",
+        "updated_at": "2023-08-30T14:19:36.292Z",
+        "algorithm_id": "d4420ffb-c7dd-4ade-827d-6cac8a38b010",
+        "excel_data_id": "537ee063-e688-4ac4-828e-2e9073d8de4d"
+      },
+      {
+        "id": "82e0bf6b-e130-4a61-87b0-ae06cb233cf1",
+        "result_data": "Pending",
+        "created_at": "2023-08-30T18:16:18.994Z",
+        "updated_at": "2023-08-30T14:33:10.071Z",
+        "algorithm_id": "d4420ffb-c7dd-4ade-827d-6cac8a38b010",
+        "excel_data_id": "7c59e244-8532-4aac-a01e-b1bd95129ab6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ff8ca793-1f46-494f-b6d8-80956457f924",
+        "email": "Orland.Bashirian95@yahoo.com",
+        "firstName": "Demarcus",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50556821",
+        "tenantId": null
+      },
+      {
+        "reference": "c9da722f-7568-4d4e-a68f-7ecd6c51059f",
+        "email": "Monica.Roberts91@yahoo.com",
+        "firstName": "Paige",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/692.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c8a36c78-ac80-4876-8738-4682e654b626",
+        "email": "Minerva4@yahoo.com",
+        "firstName": "Kane",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17465728",
+        "tenantId": null
+      },
+      {
+        "reference": "86197788-8256-4ec2-bfaf-40569b7bffe0",
+        "email": "Lizeth.Morar50@yahoo.com",
+        "firstName": "Raymundo",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10477376",
+        "tenantId": null
+      },
+      {
+        "reference": "d8d0ef95-bdcb-4cef-89fb-1a53498857aa",
+        "email": "Norberto_MacGyver@gmail.com",
+        "firstName": "Kirk",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95165175",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "30e00b72-8fb8-4651-9efc-d0d20a1ff172",
+        "email": "invitee1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-30T12:49:27.770Z",
+        "updated_at": "2023-08-30T16:20:38.525Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6ea7ed90-2244-46c2-af5c-06e127d2b5ee",
+        "email": "invitee2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-30T01:25:32.734Z",
+        "updated_at": "2023-08-30T06:14:12.716Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9225e529-ee36-4d6c-8f4e-f1d19382c477",
+        "email": "invitee3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-29T23:17:06.401Z",
+        "updated_at": "2023-08-29T21:23:36.310Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8c8f938b-de50-428e-9c1a-5d908fdec887",
+        "email": "invitee4@example.com",
+        "status": "pending",
+        "created_at": "2023-08-29T22:31:58.974Z",
+        "updated_at": "2023-08-30T04:52:05.320Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7ace556b-4ebf-4c65-9cd2-0c902dc00bf9",
+        "email": "invitee5@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-29T22:15:25.710Z",
+        "updated_at": "2023-08-30T04:32:18.297Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "excel_data": [
+      {
+        "id": "19aeb478-053c-4e8a-94d3-5978721740be",
+        "data": "100",
+        "created_at": "2023-08-30T13:30:11.362Z",
+        "updated_at": "2023-08-30T11:52:00.032Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "056ff677-3bc6-4e9a-8d6c-e00cd6dfed31",
+        "data": "200",
+        "created_at": "2023-08-30T08:21:55.382Z",
+        "updated_at": "2023-08-30T02:24:46.915Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fbcca265-f978-483a-ac88-590f9abb866e",
+        "data": "300",
+        "created_at": "2023-08-30T07:19:30.887Z",
+        "updated_at": "2023-08-30T03:41:35.794Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7dadbd78-94ee-49db-8eb0-9e0a88210f8f",
+        "data": "400",
+        "created_at": "2023-08-29T21:11:54.998Z",
+        "updated_at": "2023-08-30T04:43:21.879Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8f588088-7e5d-4c90-898a-24a0c3ff407d",
+        "data": "500",
+        "created_at": "2023-08-30T10:55:00.556Z",
+        "updated_at": "2023-08-30T11:07:51.485Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "a91136fa-acc9-4a69-8712-ddbefa2613ea",
+        "name": "Linear Regression",
+        "description": "A statistical model used for predicting numerical values",
+        "created_at": "2023-08-30T03:21:02.831Z",
+        "updated_at": "2023-08-30T02:02:13.925Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3257987-b375-4bec-8ba0-53c97f0c3873",
+        "name": "K-Means Clustering",
+        "description": "A machine learning algorithm for grouping data points",
+        "created_at": "2023-08-29T20:07:08.370Z",
+        "updated_at": "2023-08-29T21:38:42.801Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "988a1954-f474-4e00-8d66-28a49bc9cd39",
+        "name": "Random Forest",
+        "description": "An ensemble learning method that combines multiple decision trees",
+        "created_at": "2023-08-30T17:27:32.363Z",
+        "updated_at": "2023-08-29T21:49:43.999Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c588ffef-635b-4d67-8692-70abeb10d0da",
+        "name": "Support Vector Machines",
+        "description": "A classification algorithm that separates data points using hyperplanes",
+        "created_at": "2023-08-29T21:39:33.829Z",
+        "updated_at": "2023-08-30T04:52:24.087Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b67817bd-b2ee-459e-88bc-6aa17538d5fd",
+        "name": "Neural Networks",
+        "description": "A deep learning model inspired by the human brain",
+        "created_at": "2023-08-30T16:40:38.449Z",
+        "updated_at": "2023-08-30T13:04:49.483Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "e0e0aed3-a358-494a-a9a8-d4c78bff2569",
+        "result_data": "Success",
+        "created_at": "2023-08-30T10:08:29.270Z",
+        "updated_at": "2023-08-30T13:31:34.200Z",
+        "algorithm_id": "988a1954-f474-4e00-8d66-28a49bc9cd39",
+        "excel_data_id": "19aeb478-053c-4e8a-94d3-5978721740be"
+      },
+      {
+        "id": "37c36b85-9860-4b53-954e-eeca6141b06c",
+        "result_data": "Failure",
+        "created_at": "2023-08-30T05:55:59.167Z",
+        "updated_at": "2023-08-30T13:24:20.196Z",
+        "algorithm_id": "f3257987-b375-4bec-8ba0-53c97f0c3873",
+        "excel_data_id": "7dadbd78-94ee-49db-8eb0-9e0a88210f8f"
+      },
+      {
+        "id": "a1b3801a-69eb-4a94-9301-3c73da533805",
+        "result_data": "Incomplete",
+        "created_at": "2023-08-30T13:41:48.629Z",
+        "updated_at": "2023-08-29T20:24:32.234Z",
+        "algorithm_id": "c588ffef-635b-4d67-8692-70abeb10d0da",
+        "excel_data_id": "056ff677-3bc6-4e9a-8d6c-e00cd6dfed31"
+      },
+      {
+        "id": "4af8c8f2-cf8d-428f-9881-aa6a8750a2a6",
+        "result_data": "Error",
+        "created_at": "2023-08-29T19:43:08.682Z",
+        "updated_at": "2023-08-30T17:51:11.876Z",
+        "algorithm_id": "988a1954-f474-4e00-8d66-28a49bc9cd39",
+        "excel_data_id": "7dadbd78-94ee-49db-8eb0-9e0a88210f8f"
+      },
+      {
+        "id": "6dfcc38e-0164-488f-928e-325f430cb2c6",
+        "result_data": "Validated",
+        "created_at": "2023-08-30T00:18:00.862Z",
+        "updated_at": "2023-08-29T21:49:58.162Z",
+        "algorithm_id": "a91136fa-acc9-4a69-8712-ddbefa2613ea",
+        "excel_data_id": "fbcca265-f978-483a-ac88-590f9abb866e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fa3a4587-7974-4ef9-8731-d846e145e370",
+        "email": "Adolfo80@hotmail.com",
+        "firstName": "Lillie",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9163357",
+        "tenantId": null
+      },
+      {
+        "reference": "f722ae0a-cf1a-47b6-ae47-046dad1a56ea",
+        "email": "Golda_Lebsack@gmail.com",
+        "firstName": "Maddison",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/842.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "827fe06d-08b1-4e4c-9e57-31feccaffaa7",
+        "email": "Tressa_Rau77@hotmail.com",
+        "firstName": "Mavis",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94000423",
+        "tenantId": null
+      },
+      {
+        "reference": "ef818203-007e-4350-ab5b-5709d2ccd03b",
+        "email": "Bradford_Farrell@yahoo.com",
+        "firstName": "Maria",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41351383",
+        "tenantId": null
+      },
+      {
+        "reference": "848f356e-6c44-4bff-823f-ef25489fd93b",
+        "email": "Tillman_Hudson80@yahoo.com",
+        "firstName": "Renee",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/442.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "f06a1643-05d4-46c6-8f9c-14ae762f3bff",
+        "email": "invite1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-29T23:56:43.964Z",
+        "updated_at": "2023-08-30T13:09:29.966Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "20fea09a-bddc-49b9-a924-bd807cc91e35",
+        "email": "invite2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-30T18:22:21.250Z",
+        "updated_at": "2023-08-30T04:46:43.263Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f124d1b8-15f9-46f6-89fb-a9c6797371ce",
+        "email": "invite3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-30T16:40:17.372Z",
+        "updated_at": "2023-08-30T00:28:23.167Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2828db25-de71-4110-b62c-30f8e2402660",
+        "email": "invite4@example.com",
+        "status": "sent",
+        "created_at": "2023-08-29T20:13:55.496Z",
+        "updated_at": "2023-08-30T03:54:31.989Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a6a6c623-0a99-4b71-bace-77d3e7c05986",
+        "email": "invite5@example.com",
+        "status": "expired",
+        "created_at": "2023-08-30T07:05:18.610Z",
+        "updated_at": "2023-08-30T02:22:42.352Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "excel_data": [
+      {
+        "id": "2acc8fde-65f1-48b1-8c0d-9b2a468fceae",
+        "data": "12.5",
+        "created_at": "2023-08-30T11:14:38.895Z",
+        "updated_at": "2023-08-29T21:17:47.576Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a5dab117-c82f-4295-b454-3682c482a062",
+        "data": "10.2",
+        "created_at": "2023-08-30T06:09:40.752Z",
+        "updated_at": "2023-08-30T04:17:31.863Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3422310f-24f4-4453-bc0a-cd42bdaae027",
+        "data": "8.7",
+        "created_at": "2023-08-30T10:16:39.512Z",
+        "updated_at": "2023-08-30T10:00:40.165Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c075a3ee-7df8-4884-a4cf-e9169a1780c4",
+        "data": "15.9",
+        "created_at": "2023-08-30T03:34:34.015Z",
+        "updated_at": "2023-08-30T03:43:19.637Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "564f6d37-34df-4345-ae85-37efb74fadf2",
+        "data": "6.3",
+        "created_at": "2023-08-30T01:17:46.951Z",
+        "updated_at": "2023-08-30T07:51:03.954Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "c01b2b7d-8121-4b14-8b68-4c232db5ebf6",
+        "name": "Linear Regression",
+        "description": "A statistical model for predicting numerical values",
+        "created_at": "2023-08-30T05:17:11.289Z",
+        "updated_at": "2023-08-30T06:28:28.349Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57e61799-1f55-48ac-b907-e59062b2d22a",
+        "name": "K-means Clustering",
+        "description": "A clustering algorithm for grouping data points",
+        "created_at": "2023-08-29T23:43:20.497Z",
+        "updated_at": "2023-08-30T08:24:49.582Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a0d9a87-259d-4485-ad7a-26de0daeb821",
+        "name": "Random Forest",
+        "description": "An ensemble learning method for classification and regression",
+        "created_at": "2023-08-30T03:01:31.646Z",
+        "updated_at": "2023-08-29T19:54:18.738Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d03e449-bc9d-402a-b267-a03247574574",
+        "name": "Support Vector Machines",
+        "description": "A supervised learning algorithm for classification and regression",
+        "created_at": "2023-08-30T15:26:35.457Z",
+        "updated_at": "2023-08-30T12:44:33.148Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b80340e2-af48-4175-8cd0-458390f83787",
+        "name": "Neural Networks",
+        "description": "A machine learning model inspired by the human brain",
+        "created_at": "2023-08-30T12:57:16.427Z",
+        "updated_at": "2023-08-29T21:23:57.057Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "e0bfa924-a97c-4fea-a0fc-222d4b78da21",
+        "result_data": "Success",
+        "created_at": "2023-08-30T12:06:05.170Z",
+        "updated_at": "2023-08-30T18:27:02.383Z",
+        "algorithm_id": "4d03e449-bc9d-402a-b267-a03247574574",
+        "excel_data_id": "c075a3ee-7df8-4884-a4cf-e9169a1780c4"
+      },
+      {
+        "id": "978ba28f-a5bc-4be4-a2ba-052e809ecef1",
+        "result_data": "Failure",
+        "created_at": "2023-08-29T23:12:08.779Z",
+        "updated_at": "2023-08-30T02:05:43.254Z",
+        "algorithm_id": "c01b2b7d-8121-4b14-8b68-4c232db5ebf6",
+        "excel_data_id": "2acc8fde-65f1-48b1-8c0d-9b2a468fceae"
+      },
+      {
+        "id": "0a0cae67-25e5-41b2-9f8f-4ae33119b431",
+        "result_data": "Incomplete",
+        "created_at": "2023-08-30T13:59:04.101Z",
+        "updated_at": "2023-08-30T02:20:13.747Z",
+        "algorithm_id": "57e61799-1f55-48ac-b907-e59062b2d22a",
+        "excel_data_id": "c075a3ee-7df8-4884-a4cf-e9169a1780c4"
+      },
+      {
+        "id": "8e634c7f-4bfe-4ec2-a7da-3e27bfcafd7b",
+        "result_data": "Error",
+        "created_at": "2023-08-30T02:32:24.096Z",
+        "updated_at": "2023-08-30T06:42:16.845Z",
+        "algorithm_id": "b80340e2-af48-4175-8cd0-458390f83787",
+        "excel_data_id": "564f6d37-34df-4345-ae85-37efb74fadf2"
+      },
+      {
+        "id": "9b49637e-9110-4cfe-97e9-8a689b2be1e3",
+        "result_data": "Pending",
+        "created_at": "2023-08-30T01:30:54.449Z",
+        "updated_at": "2023-08-30T02:41:12.514Z",
+        "algorithm_id": "9a0d9a87-259d-4485-ad7a-26de0daeb821",
+        "excel_data_id": "3422310f-24f4-4453-bc0a-cd42bdaae027"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "93a1e12a-59bb-4b6b-9863-13dcc4e7f4e6",
+        "email": "Orlo.Boyle@yahoo.com",
+        "firstName": "Yessenia",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/684.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "39f7946d-efee-4849-9b74-e9bb3243affc",
+        "email": "Thalia_Nitzsche@hotmail.com",
+        "firstName": "Keeley",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54237348",
+        "tenantId": null
+      },
+      {
+        "reference": "955e6170-2d1d-4d97-8121-3b188fb0782f",
+        "email": "Rex67@gmail.com",
+        "firstName": "Ashley",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/78.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cc901af6-8c97-4cdf-84b5-9825a6d437ff",
+        "email": "Simone_Stamm@yahoo.com",
+        "firstName": "Anabel",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/163.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b1b0d221-b99f-4e6f-9894-4bbddbd25681",
+        "email": "Elias.Ferry@yahoo.com",
+        "firstName": "Jeramy",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73998567",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "f3bdbaf6-d519-4a9c-9318-16494974773b",
+        "email": "invitee1@example.com",
+        "status": "pending",
+        "created_at": "2023-08-30T00:19:50.358Z",
+        "updated_at": "2023-08-29T22:09:24.204Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e84b730c-c5e6-46c3-a3f0-035c14e562cd",
+        "email": "invitee2@example.com",
+        "status": "accepted",
+        "created_at": "2023-08-29T20:12:30.794Z",
+        "updated_at": "2023-08-30T00:08:56.529Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "95a5dadb-4388-4579-9506-380ad4e312a1",
+        "email": "invitee3@example.com",
+        "status": "declined",
+        "created_at": "2023-08-30T13:25:32.246Z",
+        "updated_at": "2023-08-30T01:28:05.544Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8d07e3ac-9241-4a5c-bfc8-5cf3f228c2c1",
+        "email": "invitee4@example.com",
+        "status": "invited",
+        "created_at": "2023-08-30T13:37:44.251Z",
+        "updated_at": "2023-08-30T12:18:47.312Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "466fa688-14ea-48a6-9c15-3bd5f350567d",
+        "email": "invitee5@example.com",
+        "status": "expired",
+        "created_at": "2023-08-30T18:38:19.834Z",
+        "updated_at": "2023-08-30T11:00:13.720Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "excel_data": [
+      {
+        "id": "b248f399-d856-4d81-b67c-0ce08527d65e",
+        "data": "12345",
+        "created_at": "2023-08-30T07:24:55.933Z",
+        "updated_at": "2023-08-30T00:19:51.575Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6b2e9946-17db-4885-8ec6-032d3d5c5a26",
+        "data": "67890",
+        "created_at": "2023-08-30T11:54:08.784Z",
+        "updated_at": "2023-08-30T06:58:54.908Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cacc6647-2e9b-4d4b-82f7-a201fdb158b8",
+        "data": "ABCDE",
+        "created_at": "2023-08-30T01:51:09.687Z",
+        "updated_at": "2023-08-29T19:41:43.490Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b852eb1c-5d97-435b-bd17-3ce6bf2dbc91",
+        "data": "FGHIJ",
+        "created_at": "2023-08-30T01:17:51.229Z",
+        "updated_at": "2023-08-30T13:39:32.051Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ab3b2e89-b3ae-46fe-8e84-9cd3b0528989",
+        "data": "KLMNO",
+        "created_at": "2023-08-30T05:24:13.179Z",
+        "updated_at": "2023-08-30T10:34:01.158Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "algorithm": [
+      {
+        "id": "3625a3d8-10b8-4eeb-a853-69802e4207d1",
+        "name": "Algorithm A",
+        "description": "A machine learning algorithm for image recognition",
+        "created_at": "2023-08-30T03:41:26.331Z",
+        "updated_at": "2023-08-30T12:58:06.461Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "581f4db3-01f1-41cc-a5e3-e6be20312917",
+        "name": "Algorithm B",
+        "description": "An optimization algorithm for resource allocation",
+        "created_at": "2023-08-30T05:20:13.718Z",
+        "updated_at": "2023-08-30T06:36:32.357Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f4726ff-5d9c-421b-818f-3cebd825c548",
+        "name": "Algorithm C",
+        "description": "A cryptographic algorithm for data security",
+        "created_at": "2023-08-30T19:30:33.607Z",
+        "updated_at": "2023-08-29T19:52:39.987Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "211cb8fe-93f7-422e-8367-ee42597a0831",
+        "name": "Algorithm D",
+        "description": "A recommendation algorithm for personalized content",
+        "created_at": "2023-08-30T03:04:58.681Z",
+        "updated_at": "2023-08-30T17:54:37.641Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e96129f-1869-4e41-a9ff-981bf47cf15a",
+        "name": "Algorithm E",
+        "description": "A clustering algorithm for data analysis",
+        "created_at": "2023-08-29T21:53:09.050Z",
+        "updated_at": "2023-08-30T10:35:24.518Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "08eaeee3-48d9-4fee-9706-f04332bad802",
+        "result_data": "Success",
+        "created_at": "2023-08-29T22:54:32.694Z",
+        "updated_at": "2023-08-30T00:23:21.253Z",
+        "algorithm_id": "3625a3d8-10b8-4eeb-a853-69802e4207d1",
+        "excel_data_id": "b248f399-d856-4d81-b67c-0ce08527d65e"
+      },
+      {
+        "id": "caa0a76a-835a-45f1-bf00-ae8bb854379c",
+        "result_data": "Failure",
+        "created_at": "2023-08-30T07:13:15.190Z",
+        "updated_at": "2023-08-30T17:36:02.460Z",
+        "algorithm_id": "3625a3d8-10b8-4eeb-a853-69802e4207d1",
+        "excel_data_id": "cacc6647-2e9b-4d4b-82f7-a201fdb158b8"
+      },
+      {
+        "id": "6449e1a6-8943-4fba-93eb-e34ca4319f99",
+        "result_data": "Incomplete",
+        "created_at": "2023-08-30T07:01:37.323Z",
+        "updated_at": "2023-08-29T22:28:15.530Z",
+        "algorithm_id": "8e96129f-1869-4e41-a9ff-981bf47cf15a",
+        "excel_data_id": "b248f399-d856-4d81-b67c-0ce08527d65e"
+      },
+      {
+        "id": "1e62ef88-1ca3-4548-b124-0ea6f7bb3894",
+        "result_data": "Error",
+        "created_at": "2023-08-30T18:14:17.412Z",
+        "updated_at": "2023-08-30T05:04:56.448Z",
+        "algorithm_id": "211cb8fe-93f7-422e-8367-ee42597a0831",
+        "excel_data_id": "b248f399-d856-4d81-b67c-0ce08527d65e"
+      },
+      {
+        "id": "4050dc6c-3b97-4e85-b6c4-fab7f304de4c",
+        "result_data": "Pending",
+        "created_at": "2023-08-29T23:47:20.123Z",
+        "updated_at": "2023-08-30T03:22:10.056Z",
+        "algorithm_id": "6f4726ff-5d9c-421b-818f-3cebd825c548",
+        "excel_data_id": "b248f399-d856-4d81-b67c-0ce08527d65e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "42ecc25b-5389-4548-b89d-4e40c75ab9ff",
+        "email": "Aracely_McCullough@yahoo.com",
+        "firstName": "Myles",
+        "lastName": "Dach-Anderson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42925982",
+        "tenantId": null
+      },
+      {
+        "reference": "a0f132b7-69cc-45ef-b2d5-83eae5f06a05",
+        "email": "Emmanuelle65@yahoo.com",
+        "firstName": "Rey",
+        "lastName": "Kuhn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1247.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "447218d4-a4be-49d5-8b9b-ad2b4a49b9e8",
+        "email": "Euna.Krajcik35@gmail.com",
+        "firstName": "Kelvin",
+        "lastName": "Feil",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97067037",
+        "tenantId": null
+      },
+      {
+        "reference": "4ac10e06-d09a-46bd-866d-e584d2311cb5",
+        "email": "Aliya21@yahoo.com",
+        "firstName": "Pat",
+        "lastName": "Feil",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67508899",
+        "tenantId": null
+      },
+      {
+        "reference": "3e964f09-3ffa-4421-bf1b-f63d14cc0109",
+        "email": "Ted_Roberts@hotmail.com",
+        "firstName": "Arlie",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/889.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
